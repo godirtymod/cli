@@ -6,6 +6,7 @@ require (
 	bitbucket.org/ai69/amoy v0.1.10
 	bitbucket.org/ai69/so-colorful v0.0.2
 	github.com/1set/gut v0.0.0-20201117175203-a82363231997
+	github.com/godirtymod/wrapper1 v0.1.1
 	github.com/spf13/pflag v1.0.5
 	go.uber.org/zap v1.23.0
 )
@@ -16,6 +17,7 @@ require (
 	github.com/avast/retry-go v3.0.0+incompatible // indirect
 	github.com/danwakefield/fnmatch v0.0.0-20160403171240-cbb64ac3d964 // indirect
 	github.com/dlclark/regexp2 v1.4.0 // indirect
+	github.com/godirtymod/base v0.0.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect

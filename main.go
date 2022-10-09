@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"time"
 
 	"bitbucket.org/ai69/amoy"
+	w1 "github.com/godirtymod/wrapper1"
 	flag "github.com/spf13/pflag"
 	"go.uber.org/zap"
 )
@@ -23,8 +22,7 @@ func init() {
 }
 
 func main() {
-	pwd, _ := os.Getwd()
-	host, _ := os.Hostname()
-	log.Infow("Hello New World", "hostname", host, "work_dir", pwd, "num", number)
-	fmt.Printf("🌋: Hello, World!\n⏰: %s\n", time.Now().Format("2006-01-02T15:04:05-0700"))
+	fmt.Println("Begin1")
+	w1.CoreWorkOne()
+	fmt.Println("End1")
 }
